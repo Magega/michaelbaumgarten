@@ -1,0 +1,43 @@
+/* @font-face {
+    font-family: 'Butler Stencil';
+    src: local('Butler Stencil UltraLight'), local('ButlerStencil-UltraLight'), url('Butlerstencilultralight.woff2') format('woff2'), url('Butlerstencilultralight.woff') format('woff'), url('Butlerstencilultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler Stencil';
+    src: local('Butler Stencil Light'), local('ButlerStencil-Light'), url('Butlerstencillight.woff2') format('woff2'), url('Butlerstencillight.woff') format('woff'), url('Butlerstencillight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler Stencil';
+    src: local('Butler Stencil'), local('ButlerStencil'), url('Butlerstencil.woff2') format('woff2'), url('Butlerstencil.woff') format('woff'), url('Butlerstencil.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler Stencil';
+    src: local('Butler Stencil Medium'), local('ButlerStencil-Medium'), url('Butlerstencilmedium.woff2') format('woff2'), url('Butlerstencilmedium.woff') format('woff'), url('Butlerstencilmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler Stencil';
+    src: local('Butler Stencil Bold'), local('ButlerStencil-Bold'), url('Butlerstencilbold.woff2') format('woff2'), url('Butlerstencilbold.woff') format('woff'), url('Butlerstencilbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler Stencil';
+    src: local('Butler Stencil ExtraBold'), local('ButlerStencil-ExtraBold'), url('Butlerstencilextrabold.woff2') format('woff2'), url('Butlerstencilextrabold.woff') format('woff'), url('Butlerstencilextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+} */
+@font-face {
+    font-family: 'Butler Stencil';
+    src: url('../fonts/Butlerstencilblack.woff2');
+    src: local('Butler Stencil Black'), local('ButlerStencil-Black'), url('../fonts/Butlerstencilblack.woff2') format('woff2'), url('../fonts/Butlerstencilblack.woff') format('woff'), url('../fonts/Butlerstencilblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

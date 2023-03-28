@@ -1,0 +1,10 @@
+.img-cover img{
+    object-position: bottom 75%;
+}
+.cover-three img{
+    object-position: 25% 0%;
+
+}
+.cover-six img{
+    object-position: center !important;
+}

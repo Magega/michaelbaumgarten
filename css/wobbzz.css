@@ -1,0 +1,168 @@
+.intro:before {
+    display: none;
+}
+.project-about{
+    background-color: #010101;
+    color: white;
+    height: 300px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+.wobbzz-detail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.woobbzz-text{
+    font-size: 7vw;
+}
+.woobbzz-video{
+    width: 50vw;
+    height: 28vw;
+    position: relative;
+}
+.woobbzz-video iframe{
+    width: 100%;
+    height: 100%;
+}
+.woobbzz-video img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.activeVideo{
+    display: none;
+
+}
+.wobbzz-detail h2{
+    font-size: 3vw;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.swiper {
+    width: 100%;
+    height: 296px;
+  }
+
+  .swiper-slide {
+    width: 296px !important;
+    height: 296px !important;
+    background-image: url("../img/2-Projects-Page/wobbzz/small-video.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: end; */
+    /* Center slide text vertically */
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: flex-end;
+    align-items: flex-end; */
+    padding: 25px;
+    cursor: pointer;
+  }
+  .swiper-slide p{
+    position: absolute;
+    bottom: 20px;
+  }
+  .swiper-slide:nth-child(1){
+    background-image: url("../img/2-Projects-Page/wobbzz/small1.jpg") !important;
+  }
+  .swiper-slide:nth-child(2){
+    background-image: url("../img/2-Projects-Page/wobbzz/small2.jpg") !important;
+  }
+  .swiper-slide:nth-child(3){
+    background-image: url("../img/2-Projects-Page/wobbzz/small3.jpg") !important;
+  }
+  .swiper-slide:nth-child(4){
+    background-image: url("../img/2-Projects-Page/wobbzz/small4.jpg") !important;
+  }
+  .swiper-slide:nth-child(5){
+    background-image: url("../img/2-Projects-Page/wobbzz/small5.jpg") !important;
+  }
+  .swiper-slide:nth-child(6){
+    background-image: url("../img/2-Projects-Page/wobbzz/small6.jpg") !important;
+  }
+  .swiper-slide:nth-child(7){
+    background-image: url("../img/2-Projects-Page/wobbzz/small7.jpg") !important;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/* .project-about__container p{
+    font-size: 2vw;
+    line-height: 3vw;
+} */
+@media screen and (max-width: 800px) {
+    .project-about{
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    .woobbzz-video{
+        width: 80vw;
+        height: 45vw;
+        position: relative;
+    }
+    .wobbzz-detail h2{
+        font-size: 5vw;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .woobbzz-text{
+        font-size: 14vw;
+    }
+}
+.navbarElements a:hover{
+    opacity: 0.9 !important;
+}
+h1,h2{
+  color: white;
+}
+body{
+  background-color: #010101;
+}
+footer p{
+  color: white;
+}
+.designwork{
+  color: white !important;
+  opacity: .6;
+}
+.scroll-up{
+  background: white !important;
+}
+.scroll-up svg{
+  color: black !important;
+}
